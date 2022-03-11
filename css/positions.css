@@ -1,0 +1,63 @@
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-style: italic;
+    
+}
+
+#President{
+    width: 500px;
+    height: 400px;
+    background-color: black ;
+    top: 50%;
+    left: 50%;
+    transform: translateX(10%) translateY(5%);
+    padding: 40px;
+    box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
+    color:blanchedalmond;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+#Vice-P{
+    width: 500px;
+    height: 400px;
+    background-color: black ;
+    top: 50%;
+    left: 50%;
+    transform: translateX(150%) translateY(-95%);
+    padding: 40px;
+    box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
+    color:blanchedalmond;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+#Head-Boy{
+    width: 500px;
+    height: 400px;
+    background-color: black ;
+    top: 50%;
+    left: 50%;
+    transform: translateX(10%) translateY(-60%);
+    padding: 40px;
+    box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
+    color:blanchedalmond;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+#Head-Girl{
+    width: 500px;
+    height: 400px;
+    background-color: black ;
+    top: 50%;
+    left: 50%;
+    transform: translateX(150%) translateY(-160%);
+    padding: 40px;
+    box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
+    color:blanchedalmond;
+    font-family: sans-serif;
+    font-style: italic;
+    
+}

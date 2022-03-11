@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OV.Seva</title>
+    <!--MATERIAL CDN -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+    <link href="/css/OV.Seva.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+              <div class="logo">
+                <center>
+                <img src="/pics/OVSeva-logos.jpeg" style="border-radius: 100px;">
+                <h2>OV<span class="danger">.Seva</span></h2></center>
+            </div>
+            </div>
+
+            <div class="sidebar">
+                <a href="registration.html">
+                    <span class="material-icons-sharp">how_to_reg</span>
+                    <h3>Registration</h3>
+                </a>
+                <a href="login.html" class="active">
+                    <span class="material-icons-sharp">login</span>
+                    <h3>Login</h3>
+                </a>
+                <a href="positions.html">
+                    <span class="material-icons-sharp">groups</span>
+                    <h3>Position To Contest For</h3>
+                </a>
+                <a href="candidates_info.html">
+                    <span class="material-icons-sharp">recommend</span>
+                    <h3>Candidates Information (who are standing for Elections)</h3>
+                </a>
+                <a href="Past_Year.html">
+                    <span class="material-icons-sharp">stacked_bar_chart</span>
+                    <h3>Past Year Records</h3>
+                </a>
+                <a href="About_OV.Seva.html">
+                    <span class="material-icons-sharp">info</span>
+                    <h3>About OV.Seva</h3>
+                </a>
+                <a href="creators.html">
+                    <span class="material-icons-sharp">emoji_objects</span>
+                    <h3>Creators Section</h3>
+                </a>
+            </div>
+        </aside>
+        <!------END OF ASIDE ------->
+        <main>
+            <h1> Dashboard</h1>
+            <div id="current_date" style="color:royalblue;"></p>
+                <script>
+                document.getElementById("current_date").innerHTML = Date();
+                </script></div>
+            <div class="insights">
+                <div class="pos">
+                    <span class="material-icons-sharp">pin</span>
+                    <div class="middle"><br>
+                        <h10 style="color: black;"> Number Of Positions </h10><br>
+                        <h10> 1. President</h10><br>
+                        <h10> 2. Vice-President</h10><br>
+                        <h10> 3. Head-Boy</h10><br>
+                        <h10> 4. Head-Girl</h10><br>
+                    
+                    </div>
+
+                </div>
+            <!----------END OF POSITIONS ---------->
+                <div class="cand">
+                    <span class="material-icons-sharp">supervisor_account</span>
+                    <div class="middle">
+                        <h10 style="color: black;"> Number Of Candidates</h10>
+                        
+                    
+                    </div>
+
+                </div>
+            <!--------END OF CANDIDATES------->
+                <div class="reg">
+                    <span class="material-icons-sharp">verified_user</span>
+                    <div class="middle">
+                        <h10 style="color: black;"> Number Of People Registered</h10>
+                        
+                    
+                    </div>
+
+                </div>
+            <!------ END OF REGISTRATION------->
+                <div class="vote">
+                    <span class="material-icons-sharp">poll</span>
+                    <div class="middle">
+                        <h10 style="color: black;"> Number Of People Voted</h10>
+                        
+                    
+                    </div>
+
+                </div>
+            
+        </div>
+        <!----------END OF INSIGHTS--------->
+        <br><br><br><br>
+        <div class="rov">
+            <h10> Record Of Votes </h10><table>
+              <thead>
+                  <tr>
+                      <th>S.No.</th>
+                      <th>Name Of The Candidate</th>
+                      <th>Number Of Votes</th>
+                      <th>Total Votes</th>
+                  </tr>
+              </thead>  
+            </table>
+        </div>
+    </main>
+    <!------END OF MAIN------->
+    <div class="right">
+    <div class="theme-toggler">
+        <script src="/js/dark_theme.js"></script>
+        <span class="material-icons-sharp active">light_mode</span>
+        <span class="material-icons-sharp">dark_mode</span>
+    </div></div>
+    
+    </div>
+</body>
+</html>

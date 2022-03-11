@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-size: 20px;
+    /* border-radius: 5px; */
+}
+body{
+      background-color:rgb(38, 0, 255); 
+     background-image: url("https://image.chitra.live/api/v1/wps/d72d958/f21dbbd2-75a5-4c92-ab3e-cf4aea1558ad/2/Online-voting-580x358.jpg");  
+    background-position: center;
+    color: white;
+}
+
+.form{
+    height: 800px;
+    width: auto;
+    border: 2px solid white;
+    padding: 18px 13px;
+    display: flex;
+    justify-content: center;
+}
+.form-box {
+ background-color: rgb(15, 15, 15);  
+ border-radius: 65px;
+    margin: 76px 76px;
+    padding: 70px 40px;
+}
+.form h1{
+    margin: 20px 0px;
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 45px;
+}
+.application-no{
+    margin: 10px 5px;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+.password{
+    margin: 10px 47px;
+    padding: 5px 5px;
+}
+.dob{
+    margin: 10px 21px;
+    padding: 5px 5px;
+}
+.otp{
+    margin: 10px 85px;
+    padding: 5px 5px;
+}
+.captcha{
+    margin: 10px 10px;
+    padding: 5px 5px;
+}
+#buttons{
+    margin: 50px 132px;
+    padding: 5px 5px;
+}
+.captcha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#refresh{
+    float: left;
+    margin: 0px 5px;
+    padding: 0px 30px;
+    width: 20px;
+}
+#textinput{
+    width: 133px;
+    height: 28px;
+    display: flex;
+    border-radius: 8px;
+    /* border: 4px solid rgb(201, 27, 27); */
+}
+#capt{
+    width: 133px;
+    height: auto;
+    float: left;
+    margin: 0px 5px;
+    padding: 0px 10px;
+    border-radius: 8px;
+    /* border: 4px solid rgb(201, 27, 27); */
+}
+.captcha button{
+    margin: 0px 10px;
+    padding: 0px 10px;
+    height: 20px;
+    width: 80px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: yellow;
+    box-shadow: 4px 4px white;
+}
+#refresh img{
+    height: auto;
+    padding: 5px 5px;
+    margin: 5px -35px;
+    cursor: pointer;
+}
+
+#logpassword{
+    border-radius: 8px;
+    /* border: 4px solid rgb(201, 27, 27); */
+}
+
+#logappno{
+    border-radius: 8px;
+    /* border: 4px solid rgb(201, 27, 27); */
+}
+
+#logdob{
+    border-radius: 8px;
+    /* border: 4px solid rgb(201, 27, 27); */
+}
+
+#logotp{
+    border-radius: 8px;
+    /* border: 4px solid rgb(201, 27, 27); */
+}
+
+#login{
+    border-radius: 5px;
+    background-color: green;
+    box-shadow: 2px 2px white;
+
+}
+
+#reset{
+    border-radius: 5px;
+    background-color: red;
+    box-shadow:2px 2px white;
+    margin: 0px 10px;
+
+}

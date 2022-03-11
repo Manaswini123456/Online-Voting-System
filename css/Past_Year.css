@@ -1,0 +1,94 @@
+h1{
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:antiquewhite;
+    font-size: 40px;
+}
+
+h2{
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+    font-size: 35px;
+}
+
+img{
+    border-radius:60px ;
+}
+
+.gallery__item2{
+    width: 400px;
+    height: 400px;
+    background-color: black ;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-80%) translateY(5%);
+    padding: 40px;
+    box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
+    color:blanchedalmond;
+    font-family: sans-serif;
+    font-style: italic;
+    border-radius: 40px;
+}
+
+.gallery__item3{
+    width: 400px;
+    height: 400px;
+    background-color: black ;
+    top: 50%;
+    left: 50%;
+    transform: translateX(80%) translateY(-95%);
+    padding: 40px;
+    box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
+    color:blanchedalmond;
+    font-family: sans-serif;
+    font-style: italic;
+    border-radius: 40px;
+}
+
+.gallery__item4{
+    width: 400px;
+    height: 400px;
+    background-color: black ;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-80%) translateY(35%);
+    padding: 40px;
+    box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
+    color:blanchedalmond;
+    font-family: sans-serif;
+    font-style: italic;
+    border-radius: 40px;
+}
+
+.gallery__item5{
+    width: 400px;
+    height: 400px;
+    background-color: black ;
+    top: 50%;
+    left: 50%;
+    transform: translateX(80%) translateY(-65%);
+    padding: 40px;
+    box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
+    color:blanchedalmond;
+    font-family: sans-serif;
+    font-style: italic;
+    border-radius: 40px;
+}
+
+.gallery__item6{
+    width: 700px;
+    height: 400px;
+    background-color: black ;
+    top: 50%;
+    left: 50%;
+    transform: translateX(1%) translateY(-280%);
+    padding: 40px;
+    box-shadow: 10px 10px 5px 0 rgba(0,0,0,0.75);
+    color:blanchedalmond;
+    font-family: sans-serif;
+    font-style: italic;
+    border-radius: 40px;
+}
+
+
